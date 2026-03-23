@@ -1,7 +1,7 @@
 # 灵映台
 
 一个面向 **AI 漫剧/短剧内容生产** 的创作工具，提供从剧本拆解、分镜设计、角色与场景资产生成，到导演工作台、视频生成与最终导出的完整流程。
-
+[参考视频](https://pro.filesystem.site/cdn/20260323/cb3573c997bf7a2719c47a849ad13f.mp4)
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
