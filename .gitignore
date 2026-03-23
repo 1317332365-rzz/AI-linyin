@@ -1,0 +1,31 @@
+# Python
+.venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+*.mp4
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+backend/llm_config.json
+backend/llm_config copy.json
+backend/llm_config copy 2.json
+backend/data/projects_db.json
+.env
+.env.*
+llm_config.json
+/tests
+.pytest_cache/
+.tmp/
+ai_generate.log

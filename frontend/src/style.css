@@ -1,0 +1,129 @@
+﻿:root {
+  --bg: #ecfdf8;
+  --card: #ffffff;
+  --text: #0f2a27;
+  --muted: #345f59;
+  --line: #cbe3dc;
+  --brand: #0f8f78;
+  --brand-hover: #0b7563;
+  --accent: #0d9488;
+  --danger-bg: #fee2e2;
+  --danger-text: #9b1c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top right, #ccfbf1, #f3fffb 36%, #ecfdf8);
+  color: var(--text);
+  line-height: 1.45;
+}
+
+#app {
+  width: 100vw;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.phase {
+  background-color: var(--card);
+  border-radius: 12px;
+  padding: 18px;
+  border: 1px solid var(--line);
+}
+
+.phase h2 {
+  color: var(--text);
+  margin-bottom: 12px;
+  border-bottom: 2px solid #a7f3d0;
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 15px;
+  color: var(--text);
+  background: #fff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid rgba(29, 78, 216, 0.18);
+  border-color: #93c5fd;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: var(--brand);
+  color: white;
+  border: none;
+  padding: 9px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.16s ease;
+}
+
+button:hover {
+  background-color: var(--brand-hover);
+}
+
+button:disabled {
+  background-color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.scene-item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--line);
+}
+
+.error-message {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: 0;
+  }
+}

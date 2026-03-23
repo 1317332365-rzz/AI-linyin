@@ -1,0 +1,159 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1480" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081519"/>
+      <stop offset="1" stop-color="#0E2327"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#102A2F"/>
+      <stop offset="1" stop-color="#0B1E22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#29C8B1"/>
+      <stop offset="1" stop-color="#187B69"/>
+    </linearGradient>
+    <filter id="shadow" x="-40" y="-40" width="220" height="220">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#041013" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <circle cx="210" cy="132" r="140" fill="#1B8977" fill-opacity="0.20" filter="url(#shadow)"/>
+  <circle cx="1420" cy="850" r="170" fill="#2CC7B1" fill-opacity="0.12" filter="url(#shadow)"/>
+
+  <text x="86" y="92" fill="#EFFFFA" font-size="42" font-family="Arial, sans-serif" font-weight="700">AI App UI 结构设计 V1</text>
+  <text x="86" y="132" fill="#8CB8B2" font-size="22" font-family="Arial, sans-serif">底部三大模块使用 TabBar，动漫生成内部使用顶部滑块切换四个子流程。</text>
+
+  <g transform="translate(72 188)">
+    <rect x="0" y="0" width="460" height="706" rx="40" fill="#061114" stroke="#25444A" stroke-width="2"/>
+    <rect x="18" y="18" width="424" height="670" rx="30" fill="url(#panel)" stroke="#2A5054"/>
+    <text x="40" y="56" fill="#96DCCD" font-size="18" font-family="Arial, sans-serif">动漫生成</text>
+    <text x="40" y="90" fill="#F3FFFD" font-size="30" font-family="Arial, sans-serif" font-weight="700">项目创作中枢</text>
+    <text x="40" y="118" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">先建项目，再进入剧本、资产、导演三段工作流。</text>
+
+    <rect x="34" y="144" width="392" height="66" rx="24" fill="#0A1A1D" stroke="#1E3B40"/>
+    <rect x="44" y="154" width="94" height="46" rx="18" fill="url(#accent)"/>
+    <text x="72" y="183" fill="#F6FFFD" font-size="18" font-family="Arial, sans-serif" font-weight="700">项目</text>
+    <text x="160" y="183" fill="#96C8C1" font-size="18" font-family="Arial, sans-serif">剧本</text>
+    <text x="240" y="183" fill="#96C8C1" font-size="18" font-family="Arial, sans-serif">资产</text>
+    <text x="320" y="183" fill="#96C8C1" font-size="18" font-family="Arial, sans-serif">导演</text>
+
+    <rect x="34" y="230" width="392" height="126" rx="28" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="270" fill="#EFFFFA" font-size="22" font-family="Arial, sans-serif" font-weight="700">项目创建卡片</text>
+    <text x="58" y="300" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">项目名 / 剧本名 / 起始集数</text>
+    <rect x="58" y="316" width="148" height="22" rx="11" fill="#123239"/>
+    <rect x="216" y="316" width="116" height="22" rx="11" fill="#123239"/>
+    <rect x="58" y="372" width="136" height="42" rx="18" fill="url(#accent)"/>
+    <text x="92" y="399" fill="#F6FFFD" font-size="16" font-family="Arial, sans-serif" font-weight="700">创建项目</text>
+
+    <rect x="34" y="376" width="392" height="130" rx="28" fill="#0C2024" stroke="#204047"/>
+    <text x="58" y="416" fill="#EFFFFA" font-size="22" font-family="Arial, sans-serif" font-weight="700">剧本阶段预览</text>
+    <text x="58" y="446" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">左侧保留项目信息，右侧进入剧本输入与分镜产出。</text>
+    <rect x="58" y="464" width="152" height="20" rx="10" fill="#123239"/>
+    <rect x="58" y="492" width="214" height="20" rx="10" fill="#123239"/>
+
+    <rect x="34" y="526" width="188" height="100" rx="26" fill="#0C2024" stroke="#204047"/>
+    <text x="58" y="564" fill="#EFFFFA" font-size="20" font-family="Arial, sans-serif" font-weight="700">资产工作区</text>
+    <text x="58" y="592" fill="#8FBAB4" font-size="15" font-family="Arial, sans-serif">角色、场景、道具</text>
+
+    <rect x="238" y="526" width="188" height="100" rx="26" fill="#0C2024" stroke="#204047"/>
+    <text x="262" y="564" fill="#EFFFFA" font-size="20" font-family="Arial, sans-serif" font-weight="700">导演工作区</text>
+    <text x="262" y="592" fill="#8FBAB4" font-size="15" font-family="Arial, sans-serif">镜头、关键帧、视频</text>
+
+    <rect x="34" y="646" width="392" height="30" rx="15" fill="#09181B"/>
+    <text x="74" y="666" fill="#73D8C8" font-size="16" font-family="Arial, sans-serif" font-weight="700">动漫生成</text>
+    <text x="206" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">视频导出</text>
+    <text x="330" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">个人中心</text>
+  </g>
+
+  <g transform="translate(570 188)">
+    <rect x="0" y="0" width="460" height="706" rx="40" fill="#061114" stroke="#25444A" stroke-width="2"/>
+    <rect x="18" y="18" width="424" height="670" rx="30" fill="url(#panel)" stroke="#2A5054"/>
+    <text x="40" y="56" fill="#96DCCD" font-size="18" font-family="Arial, sans-serif">视频导出管理</text>
+    <text x="40" y="90" fill="#F3FFFD" font-size="30" font-family="Arial, sans-serif" font-weight="700">导出中心</text>
+    <text x="40" y="118" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">统一管理渲染状态、导出记录和失败重试。</text>
+
+    <rect x="34" y="144" width="392" height="70" rx="24" fill="#0A1A1D" stroke="#1E3B40"/>
+    <text x="58" y="172" fill="#8FBAB4" font-size="14" font-family="Arial, sans-serif">筛选</text>
+    <rect x="58" y="182" width="86" height="20" rx="10" fill="url(#accent)"/>
+    <text x="78" y="196" fill="#F6FFFD" font-size="13" font-family="Arial, sans-serif" font-weight="700">全部</text>
+    <rect x="154" y="182" width="86" height="20" rx="10" fill="#133238"/>
+    <text x="174" y="196" fill="#A3D2CB" font-size="13" font-family="Arial, sans-serif">进行中</text>
+    <rect x="250" y="182" width="86" height="20" rx="10" fill="#133238"/>
+    <text x="278" y="196" fill="#A3D2CB" font-size="13" font-family="Arial, sans-serif">已完成</text>
+    <rect x="346" y="182" width="56" height="20" rx="10" fill="#133238"/>
+    <text x="360" y="196" fill="#A3D2CB" font-size="13" font-family="Arial, sans-serif">失败</text>
+
+    <rect x="34" y="236" width="392" height="120" rx="28" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="274" fill="#F2FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">导出任务 A</text>
+    <text x="58" y="302" fill="#8FBAB4" font-size="15" font-family="Arial, sans-serif">项目：仙侠短剧第一季 · 第 3 集</text>
+    <rect x="58" y="320" width="280" height="10" rx="5" fill="#143239"/>
+    <rect x="58" y="320" width="198" height="10" rx="5" fill="url(#accent)"/>
+    <text x="350" y="328" fill="#73D8C8" font-size="14" font-family="Arial, sans-serif">72%</text>
+    <rect x="58" y="340" width="90" height="18" rx="9" fill="#123239"/>
+    <text x="80" y="353" fill="#BFE6DF" font-size="12" font-family="Arial, sans-serif">继续导出</text>
+
+    <rect x="34" y="376" width="392" height="120" rx="28" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="414" fill="#F2FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">导出任务 B</text>
+    <text x="58" y="442" fill="#8FBAB4" font-size="15" font-family="Arial, sans-serif">项目：都市恋爱番外 · 第 1 集</text>
+    <rect x="58" y="460" width="280" height="10" rx="5" fill="#143239"/>
+    <rect x="58" y="460" width="280" height="10" rx="5" fill="#34C9A0"/>
+    <text x="350" y="468" fill="#73D8C8" font-size="14" font-family="Arial, sans-serif">100%</text>
+    <rect x="58" y="480" width="90" height="18" rx="9" fill="#123239"/>
+    <text x="84" y="493" fill="#BFE6DF" font-size="12" font-family="Arial, sans-serif">查看文件</text>
+
+    <rect x="34" y="516" width="392" height="110" rx="28" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="554" fill="#F2FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">导出记录面板</text>
+    <text x="58" y="582" fill="#8FBAB4" font-size="15" font-family="Arial, sans-serif">按时间倒序展示导出结果、失败原因和重试入口。</text>
+
+    <rect x="34" y="646" width="392" height="30" rx="15" fill="#09181B"/>
+    <text x="74" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">动漫生成</text>
+    <text x="198" y="666" fill="#73D8C8" font-size="16" font-family="Arial, sans-serif" font-weight="700">视频导出</text>
+    <text x="330" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">个人中心</text>
+  </g>
+
+  <g transform="translate(1068 188)">
+    <rect x="0" y="0" width="460" height="706" rx="40" fill="#061114" stroke="#25444A" stroke-width="2"/>
+    <rect x="18" y="18" width="424" height="670" rx="30" fill="url(#panel)" stroke="#2A5054"/>
+    <text x="40" y="56" fill="#96DCCD" font-size="18" font-family="Arial, sans-serif">个人中心</text>
+    <text x="40" y="90" fill="#F3FFFD" font-size="30" font-family="Arial, sans-serif" font-weight="700">账号与偏好</text>
+    <text x="40" y="118" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">展示邮箱、使用统计、本地配置和退出登录入口。</text>
+
+    <rect x="34" y="148" width="392" height="126" rx="30" fill="#0A1A1D" stroke="#204047"/>
+    <circle cx="92" cy="210" r="30" fill="url(#accent)"/>
+    <text x="82" y="217" fill="#F6FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">邮</text>
+    <text x="138" y="198" fill="#F2FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">当前账号</text>
+    <text x="138" y="228" fill="#8FBAB4" font-size="16" font-family="Arial, sans-serif">example@domain.com</text>
+    <rect x="138" y="240" width="108" height="18" rx="9" fill="#123239"/>
+    <text x="162" y="253" fill="#BFE6DF" font-size="12" font-family="Arial, sans-serif">独立工作空间</text>
+
+    <rect x="34" y="294" width="188" height="118" rx="26" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="334" fill="#F2FFFD" font-size="18" font-family="Arial, sans-serif" font-weight="700">项目数量</text>
+    <text x="58" y="386" fill="#73D8C8" font-size="42" font-family="Arial, sans-serif" font-weight="700">18</text>
+
+    <rect x="238" y="294" width="188" height="118" rx="26" fill="#0A1A1D" stroke="#204047"/>
+    <text x="262" y="334" fill="#F2FFFD" font-size="18" font-family="Arial, sans-serif" font-weight="700">导出次数</text>
+    <text x="262" y="386" fill="#73D8C8" font-size="42" font-family="Arial, sans-serif" font-weight="700">62</text>
+
+    <rect x="34" y="432" width="392" height="166" rx="28" fill="#0A1A1D" stroke="#204047"/>
+    <text x="58" y="472" fill="#F2FFFD" font-size="20" font-family="Arial, sans-serif" font-weight="700">设置与帮助</text>
+    <rect x="58" y="496" width="344" height="34" rx="17" fill="#112A2F"/>
+    <text x="84" y="518" fill="#C8ECE6" font-size="15" font-family="Arial, sans-serif">本地后端地址</text>
+    <rect x="58" y="540" width="344" height="34" rx="17" fill="#112A2F"/>
+    <text x="84" y="562" fill="#C8ECE6" font-size="15" font-family="Arial, sans-serif">默认视频导出设置</text>
+    <rect x="58" y="584" width="344" height="34" rx="17" fill="#112A2F"/>
+    <text x="84" y="606" fill="#C8ECE6" font-size="15" font-family="Arial, sans-serif">清理本地缓存 / 退出登录</text>
+
+    <rect x="34" y="646" width="392" height="30" rx="15" fill="#09181B"/>
+    <text x="74" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">动漫生成</text>
+    <text x="206" y="666" fill="#6E9290" font-size="16" font-family="Arial, sans-serif">视频导出</text>
+    <text x="330" y="666" fill="#73D8C8" font-size="16" font-family="Arial, sans-serif" font-weight="700">个人中心</text>
+  </g>
+
+  <g transform="translate(88 920)">
+    <text x="0" y="0" fill="#E8FFFA" font-size="20" font-family="Arial, sans-serif" font-weight="700">交互说明</text>
+    <text x="0" y="32" fill="#91BDB7" font-size="18" font-family="Arial, sans-serif">1. 底部 TabBar：动漫生成 / 视频导出管理 / 个人中心</text>
+    <text x="510" y="32" fill="#91BDB7" font-size="18" font-family="Arial, sans-serif">2. 动漫生成顶部滑块：项目 / 剧本 / 资产 / 导演</text>
+    <text x="980" y="32" fill="#91BDB7" font-size="18" font-family="Arial, sans-serif">3. 视觉方向：深海青绿、卡片化、强状态指引</text>
+  </g>
+</svg>
