@@ -1,0 +1,77 @@
+{
+  "model": "claude-3",
+  "api_key": "your_google_api_key_here",
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "character2": {
+    "api_key": "d18ec32e-69b6f72",
+    "max_tokens": 1000,
+    "model": "doubao-seedream-4-5-251128",
+    "temperature": 0.7,
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+    "sdk_type": "doubao",
+    "access_key": "",
+    "secret_key": ""
+  },
+  "character": {
+    "api_key": "-",
+    "base_url": "https://api.vectorengine.ai/v1",
+    "max_tokens": 1000,
+    "model": "sora_image",
+    "sdk_type": "nono",
+    "temperature": 0.7,
+    "access_key": "",
+    "secret_key": ""
+  },
+  "general": {
+    "api_key": "2af48d3a36",
+    "max_tokens": 1000,
+    "model": "doubao-seed-2-0-lite-260215",
+    "temperature": 0.7,
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "sdk_type": "openai",
+    "access_key": "",
+    "secret_key": ""
+  },
+  "script": {
+    "api_key": "-",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "max_tokens": 10000,
+    "model": "doubao-seed-2-0-lite-260215",
+    "temperature": 0.7,
+    "sdk_type": "openai",
+    "access_key": "",
+    "secret_key": ""
+  },
+  "scene": {
+    "api_key": "-",
+    "base_url": "https://api.vectorengine.ai/v1",
+    "max_tokens": 1000,
+    "model": "sora_image",
+    "sdk_type": "nono",
+    "temperature": 0.7,
+    "access_key": "",
+    "secret_key": ""
+  },
+  "video": {
+    "model": "sora-2-characters",
+    "api_key": "-",
+    "base_url": "https://api.vectorengine.ai/v1/video/create",
+    "temperature": 0.9,
+    "max_tokens": 1000,
+    "sdk_type": "grsai",
+    "grsai_api_key": "sk-da5a78c11da346759e13cd4c154a862c",
+    "access_key": "",
+    "secret_key": "=="
+  },
+  "dialogue": {
+    "model": "gpt-4",
+    "api_key": "",
+    "base_url": "",
+    "temperature": 0.7,
+    "max_tokens": 1000,
+    "sdk_type": "openai",
+    "access_key": "",
+    "secret_key": ""
+  }
+}
